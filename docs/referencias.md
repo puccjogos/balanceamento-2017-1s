@@ -8,7 +8,7 @@ DUTCH GAME GARDEN. Jan Willem Nijman - Vlambeer - “The art of screenshake”, 
 
 FULLERTON, T. Game design workshop: a playcentric approach to creating innovative games. 2nd ed. ed. Amsterdam ;;Boston: Elsevier Morgan Kaufmann, 2008. 
 
-Game Balance Concepts. Disponível em: <https://gamebalanceconcepts.wordpress.com/>. Acesso em: 10 fev. 2016. 
+SCHREIBER, I. Game Balance Concepts. Disponível em: <https://gamebalanceconcepts.wordpress.com/>. Acesso em: 10 fev. 2016. 
 
 GDC Vault - 50 Camera Mistakes. Disponível em: <http://www.gdcvault.com/play/1020460/50-Camera>. Acesso em: 10 mar. 2016. 
 
@@ -19,6 +19,8 @@ GRAPEFRUKT. Juice it or lose it - a talk by Martin Jonasson & Petri Purho, [s.d.
 MARK, D. Behavioral Mathematics for Game AI. 1st edition ed. Boston, MA: Cengage Learning PTR, 2009. 
 
 Playing to Win. Disponível em: <http://www.sirlin.net/ptw/>. Acesso em: 10 fev. 2016. 
+
+SALEN, K.; ZIMMERMAN, E. Rules of play : game design fundamentals. Cambridge  Mass.: MIT Press, 2003. 
 
 SCHELL, J. A arte do game design: o livro original. [s.l.] CRC Press, 2010. 
 

@@ -6,8 +6,8 @@ Este site é a apostila digital da disciplina *Técnicas de balanceamento de jog
 
 Data  | Aula
 ----- | ----
-16/02 | Apresentação da disciplina / Discussão sobre jogos e equilíbrio
-23/02 | Jogos como sistemas
+16/02 | Apresentação da disciplina / Discussão sobre [jogos e equilíbrio](aulas/jogos-e-equilibrio.md)
+23/02 | [Jogos e sistemas](aulas/jogos-e-sistemas.md)
 02/03 | Discussão e análise de sistemas em jogos
 09/03 | Técnicas para equilibrar sistemas
 16/03 | Movimento e equilíbrio
@@ -68,10 +68,10 @@ A nota de exercícios será uma média ponderada entre as notas em cada exercíc
 
 ### Critérios de avaliação
 
-Capacidade de entender e aplicar os conceitos e técnicas discutidos em sala.
-Adequação e pontualidade na entrega de exercícios propostos.
-Qualidade e originalidade nas soluções aos problemas propostos em sala.
-Participação e comprometimento nas atividades didáticas da disciplina.
+- Capacidade de entender e aplicar os conceitos e técnicas discutidos em sala.
+- Adequação e pontualidade na entrega de exercícios propostos.
+- Qualidade e originalidade nas soluções aos problemas propostos em sala.
+- Participação e comprometimento nas atividades didáticas da disciplina.
 
 
 #### Integridade acadêmica
@@ -81,6 +81,3 @@ A constatação de cola ou plágio em qualquer atividade avaliada (prova ou ativ
 ### Estratégia de recuperação
 
 Os exercícios insuficientes poderão ser refeitos e entregues em novas datas. Atividades não-entregues ou atrasadas não poderam ser refeitas. Se o aluno tiver nota inferior a 5 na média de proivas individuais ele pode fazer uma prova de recuperação que irá substituir o valor de uma das provas.
-
-
-

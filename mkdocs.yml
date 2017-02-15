@@ -1,7 +1,9 @@
-site_name: Balanceamento de jogos - 2017 - 1S
+site_name: Balanceamento - 2017 - 1S
 pages:
 - Home: 'index.md'
 - Aulas :
+  - 'Jogos e equilíbrio' : 'aulas/jogos-e-equilibrio.md'
+  - 'Jogos como sistemas' : 'aulas/jogos-e-sistemas.md'
   - Polimento : 'aulas/polimento.md'
 - Referências : 'referencias.md'
 theme: bootstrap
