@@ -4,7 +4,7 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2017-02-23</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,19 +13,25 @@
         
     <url>
      <loc>None/aulas/jogos-e-equilibrio/</loc>
-     <lastmod>2017-02-23</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/aulas/jogos-e-sistemas/</loc>
-     <lastmod>2017-02-23</lastmod>
+     <lastmod>2017-03-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/aulas/analise-sistemas/</loc>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/aulas/polimento/</loc>
-     <lastmod>2017-02-23</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -33,8 +39,16 @@
 
     
     <url>
+     <loc>None/recomendacoes/</loc>
+     <lastmod>2017-03-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>None/referencias/</loc>
-     <lastmod>2017-02-23</lastmod>
+     <lastmod>2017-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
