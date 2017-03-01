@@ -8,7 +8,7 @@ Data  | Aula
 ----- | ----
 16/02 | Apresentação da disciplina / Discussão sobre [jogos e equilíbrio](aulas/jogos-e-equilibrio.md)
 23/02 | [Jogos e sistemas](aulas/jogos-e-sistemas.md)
-02/03 | Discussão e análise de sistemas em jogos
+02/03 | Discussão e [análise de sistemas em jogos](aulas/analise-sistemas.md)
 09/03 | Técnicas para equilibrar sistemas
 16/03 | Movimento e equilíbrio
 23/03 | Discussão e análise de movimento em jogos
@@ -16,7 +16,7 @@ Data  | Aula
 06/04 | **Prova individual 1**
 13/04 | Level design e equilíbrio
 20/04 | Experimentação e análise de fases simples
-27/04 | Técnicas de level design 
+27/04 | Técnicas de level design
 04/05 | Progressão e equilíbrio
 11/05 | Ferramentas e técnicas para equilíbrio
 18/05 | Câmeras, interfaces e dificuldade
