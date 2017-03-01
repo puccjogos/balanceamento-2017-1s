@@ -119,11 +119,9 @@
     
         <li class="main active"><a href="#analise-de-sistemas-em-jogos">Análise de sistemas em jogos</a></li>
         
-            <li><a href="#sistema-de-combate-de-myre">Sistema de combate de Myre</a></li>
+            <li><a href="#um-passo-a-passo-para-analise">Um passo-a-passo para análise</a></li>
         
-            <li><a href="#sistema-de-diplomacia-de-sins-of-a-solar-empire">Sistema de diplomacia de Sins of a Solar Empire</a></li>
-        
-            <li><a href="#sistema-de-level-up-de-kerkerkruip">Sistema de level-up de Kerkerkruip</a></li>
+            <li><a href="#estudos-de-caso">Estudos de caso</a></li>
         
     
     </ul>
@@ -132,7 +130,19 @@
 
 <h1 id="analise-de-sistemas-em-jogos">Análise de sistemas em jogos</h1>
 <p>Nesta aulas, vamos partir dos elementos de sistemas discutidos na aula da semana passada para iniciar a análise de alguns exemplos de sistemas em jogos.</p>
-<h2 id="sistema-de-combate-de-myre">Sistema de combate de <em>Myre</em></h2>
+<h2 id="um-passo-a-passo-para-analise">Um passo-a-passo para análise</h2>
+<p>Para guiar nossa análise, vamos pensar nos seguintes pontos:</p>
+<ol>
+<li>Qual o contexto de funcionamento desse sistema?</li>
+<li>Quais são os principais objetos do sistema? Quais são seus principais atributos?</li>
+<li>Quais são as principais etapas de funcionamento do sistema? Quais eventos são chave para seu comportamento?</li>
+<li>Pensando na experiência do jogador, quais são as principais consequências desse sistema? Quais objetos ou relações internas ganham importância para o jogador?</li>
+<li>Como o sistema incorpora sorte e habilidade do jogador?</li>
+<li>Como o sistema trata as relações internas entre diferentes elementos? Existem feedbacks positivos ou negativos? Quais afetam os jogadores?</li>
+<li>O sistema tem impacto nas estratégias elaboradas pelo jogador? Como ele dificulta ou facilita os objetivos do jogador?</li>
+</ol>
+<h2 id="estudos-de-caso">Estudos de caso</h2>
+<h3 id="sistema-de-combate-em-myre">Sistema de combate em <em>Myre</em></h3>
 <p>Os principais objetos em Myre são as cartas. Elas servem tanto para atacar o oponente quanto para marcar a vida do jogador. Essa duplicidade gera uma tensão em como utilizá-las a cada momento da partida. As regras que definem o combate no jogo criam uma relação interna entre os dois papéis das cartas que criam novas decisões e estratégias para os jogadores.</p>
 <p>Quando pensamos no sistema de combate de Myre, como podemos responder as perguntas abaixo?</p>
 <ul>
@@ -141,12 +151,12 @@
 <li>Quais forças aumentam ou diminuem a desigualdade entre jogadores? Como essa relação evolui ao longo do jogo?</li>
 <li>Como o jogo trata a questão da sorte e da habilidade?</li>
 </ul>
-<h2 id="sistema-de-diplomacia-de-sins-of-a-solar-empire">Sistema de diplomacia de <em>Sins of a Solar Empire</em></h2>
+<h3 id="sistema-de-diplomacia-em-sins-of-a-solar-empire">Sistema de diplomacia em <em>Sins of a Solar Empire</em></h3>
 <p>Neste jogo, os diferentes jogadores têm a opção de colocar recompensas contra outros jogadores. Após um período de leilão no qual os jogadores podem se juntar para aumentar a recompensa contra outro jogador, o jogador que tiver a maior recompensa contra si será atacado por uma frota pirata.</p>
 <p><img alt="" src="../../imgs/leilao-pirata.png" /></p>
 <p><em>Tela de leilão de recompensas em Sins of a Solar Empire.</em></p>
 <p>Esse sistema permite toda uma séria de manobras entre jogadores, assim como afeta a forma com que recursos e defesas são distribuídos pelos sistemas do jogador. O sistema também tem repercussões econômicas: para poder investir em recompensas, o jogador deve focar sua economia na conversão de outros recursos em créditos, a única forma de pagamento aceita.</p>
-<h2 id="sistema-de-level-up-de-kerkerkruip">Sistema de level-up de <em><a href="https://kerkerkruip.org/">Kerkerkruip</a></em></h2>
+<h3 id="sistema-de-level-up-e-poderes-em-kerkerkruip">Sistema de level-up e poderes em <em><a href="https://kerkerkruip.org/">Kerkerkruip</a></em></h3>
 <p>Nesse jogo, cada inimigo apresenta um nível de perigo diferente. Quando um inimigo é derrotado, o jogador recebe parte de seus poderes. Se depois derrotar inimigos de nível menor, esses poderes se acumulam. No entanto, se o jogador derrotar um inimigo mais poderoso, esse novo poder toma o lugar dos anteriores. Dessa forma, surge toda uma gama de escolhas estratégicas para a abordagem do jogador em relação ao labirinto em que se encontra e se deve ou não enfrentar os inimigos em uma determinada ordem. É um sistema com poucos objetos em si (poderes, nível de perigo), mas no qual atributos e relações internas criam dinâmicas significativas para o jogador.</p></div>
         </div>
 
