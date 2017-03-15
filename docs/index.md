@@ -9,8 +9,8 @@ Data  | Aula
 16/02 | Apresentação da disciplina / Discussão sobre [jogos e equilíbrio](aulas/jogos-e-equilibrio.md)
 23/02 | [Jogos e sistemas](aulas/jogos-e-sistemas.md)
 02/03 | Discussão e [análise de sistemas em jogos](aulas/analise-sistemas.md)
-09/03 | Técnicas para equilibrar sistemas
-16/03 | Movimento e equilíbrio
+09/03 | Análise de sistemas e [técnicas para equilibrar sistemas](aulas/tecnicas-sistemas.md)
+16/03 | [Movimento e equilíbrio](aulas/movimento-equilibrio.md)
 23/03 | Discussão e análise de movimento em jogos
 30/03 | Técnicas para equilibrar movimento
 06/04 | **Prova individual 1**
@@ -20,10 +20,12 @@ Data  | Aula
 04/05 | Progressão e equilíbrio
 11/05 | Ferramentas e técnicas para equilíbrio
 18/05 | Câmeras, interfaces e dificuldade
-25/05 | [Polimento](aulas/polimento.md)
-01/06 | [Criando diálogos](aulas/dialogo.md)
+25/05 | Polimento
+01/06 | Criando diálogos
 08/06 | **Prova individual 2**
 22/06 | **Prova de recuperação** / Fechamento da disciplina
+
+[O link para as recomendações de jogos apresentados em sala foi alterado.](https://puccjogos.github.io/recomendacoes-enric/)
 
 ## Plano de ensino
 

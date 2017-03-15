@@ -5,8 +5,9 @@ pages:
   - 'Jogos e equilíbrio' : 'aulas/jogos-e-equilibrio.md'
   - 'Jogos como sistemas' : 'aulas/jogos-e-sistemas.md'
   - 'Análise de sistemas em jogos' : 'aulas/analise-sistemas.md'
+  - 'Técnicas para equilibrar sistemas' : 'aulas/tecnicas-sistemas.md'
+  - 'Movimento e equilíbrio' : 'aulas/movimento-equilibrio.md'
   - Polimento : 'aulas/polimento.md'
-- Recomendações : 'recomendacoes.md'
 - Referências : 'referencias.md'
 theme: bootstrap
 extra_css:
