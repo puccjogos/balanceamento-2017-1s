@@ -227,7 +227,7 @@
         }, 
         {
             "location": "/aulas/movimento-equilibrio/", 
-            "text": "Movimento e equil\u00edbrio\n\n\n\n\nLeitura\n\n\nCap\u00edtulo 1 \nDefining Game Feel\n em SWINK, S. Game Feel: A Game Designer\u2019s Guide to Virtual Sensation. 1 edition ed. Amsterdam\u202f; Boston: CRC Press, 2008.\n\n\n\n\nNa aula de hoje, vamos discutir o conceito de \ngame feel\n, proposto por Steve Swink, para compreender mais a fundo as maneiras com que movimento e equil\u00edbrio se relacionam em jogos digitais. Esse conceito \u00e9 particularmente relevante pois se aplica a um grande n\u00famero de jogos que envolvem movimento em espa\u00e7os simulados, assim como nos ajuda a entender as consequ\u00eancias e decis\u00f5es est\u00e9ticas e de game design envolvidas em sua cria\u00e7\u00e3o.\n\n\n\n\n\nExemplo \nDesviaroid\n\n\n\n\nNeste exemplo, vamos ver como 3 diferentes esquemas de movimento e input criam sensa\u00e7\u00f5es pr\u00f3prias num jogo simples. Assim, podemos ver mais facilmente seu impacto no equil\u00edbrio do jogo em outras \u00e1reas como dificuldade ou level design.", 
+            "text": "Movimento e equil\u00edbrio\n\n\n\n\nLeitura\n\n\nCap\u00edtulo 1 \nDefining Game Feel\n em SWINK, S. Game Feel: A Game Designer\u2019s Guide to Virtual Sensation. 1 edition ed. Amsterdam\u202f; Boston: CRC Press, 2008.\n\n\n\n\nNa aula de hoje, vamos discutir o conceito de \ngame feel\n, proposto por Steve Swink, para compreender mais a fundo as maneiras com que movimento e equil\u00edbrio se relacionam em jogos digitais. Esse conceito \u00e9 particularmente relevante pois se aplica a um grande n\u00famero de jogos que envolvem movimento em espa\u00e7os simulados, assim como nos ajuda a entender as consequ\u00eancias e decis\u00f5es est\u00e9ticas e de game design envolvidas em sua cria\u00e7\u00e3o.\n\n\n\n\n\nExemplo \nDesviaroid\n\n\n\n\nNeste exemplo (\nlink para download de uma build\n), vamos ver como 3 diferentes esquemas de movimento e input criam sensa\u00e7\u00f5es pr\u00f3prias num jogo simples. Assim, podemos ver mais facilmente seu impacto no equil\u00edbrio do jogo em outras \u00e1reas como dificuldade ou level design.", 
             "title": "Movimento e equil\u00edbrio"
         }, 
         {
@@ -237,7 +237,7 @@
         }, 
         {
             "location": "/aulas/movimento-equilibrio/#exemplo-desviaroid", 
-            "text": "Neste exemplo, vamos ver como 3 diferentes esquemas de movimento e input criam sensa\u00e7\u00f5es pr\u00f3prias num jogo simples. Assim, podemos ver mais facilmente seu impacto no equil\u00edbrio do jogo em outras \u00e1reas como dificuldade ou level design.", 
+            "text": "Neste exemplo ( link para download de uma build ), vamos ver como 3 diferentes esquemas de movimento e input criam sensa\u00e7\u00f5es pr\u00f3prias num jogo simples. Assim, podemos ver mais facilmente seu impacto no equil\u00edbrio do jogo em outras \u00e1reas como dificuldade ou level design.", 
             "title": "Exemplo Desviaroid"
         }, 
         {
