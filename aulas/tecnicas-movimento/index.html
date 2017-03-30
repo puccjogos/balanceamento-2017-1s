@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Jogos e equilíbrio - Balanceamento - 2017 - 1S</title>
+	<title>Técnicas para equilibrar movimento - Balanceamento - 2017 - 1S</title>
 
         <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -61,8 +61,8 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Aulas <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                     
-                        <li class="active">
-                            <a href="./">Jogos e equilíbrio</a>
+                        <li >
+                            <a href="../jogos-e-equilibrio/">Jogos e equilíbrio</a>
                         </li>
                     
                         <li >
@@ -85,8 +85,8 @@
                             <a href="../analise-movimento/">Análise de movimento</a>
                         </li>
                     
-                        <li >
-                            <a href="../tecnicas-movimento/">Técnicas para equilibrar movimento</a>
+                        <li class="active">
+                            <a href="./">Técnicas para equilibrar movimento</a>
                         </li>
                     
                         <li >
@@ -108,12 +108,12 @@
             <!-- Search, Navigation and Repo links -->
             <ul class="nav navbar-nav navbar-right">
                 <li >
-                    <a rel="next" href="../..">
+                    <a rel="next" href="../analise-movimento/">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../jogos-e-sistemas/">
+                    <a rel="prev" href="../polimento/">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -127,43 +127,44 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#jogos-e-equilibrio">Jogos e equilíbrio</a></li>
+        <li class="main active"><a href="#tecnicas-para-equilibrar-movimento">Técnicas para equilibrar movimento</a></li>
         
-            <li><a href="#conceitos-relevantes">Conceitos relevantes</a></li>
+            <li><a href="#prototipo-de-movimentacao">Protótipo de movimentação</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="jogos-e-equilibrio">Jogos e equilíbrio</h1>
-<blockquote>
-<p><strong>Leitura</strong></p>
-<p><em>Level 1: Intro to game balance</em> em SCHREIBER, I. Game Balance Concepts. Disponível em: <a href="https://gamebalanceconcepts.wordpress.com/2010/07/07/level-1-intro-to-game-balance/">https://gamebalanceconcepts.wordpress.com/2010/07/07/level-1-intro-to-game-balance/</a>. Acesso em: 10 fev. 2016. </p>
-</blockquote>
-<p>Na aula de hoje, vamos ver algumas definições e ideias relativas ao equilíbrio de jogos, tentando encontrar conceitos mais relevantes que serão explorados em mais detalhe ao longo da disciplina. Também buscamos, com isso, estabelecer um vocabulário comum.</p>
-<iframe src="https://docs.google.com/presentation/d/1shgqjd4YvY9FIsfLvFG507iDHP9Vj1oYVVnJE7NMOGM/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-<h2 id="conceitos-relevantes">Conceitos relevantes</h2>
-<h3 id="determinismo">Determinismo</h3>
-<blockquote>
-<p>Um jogo <em>determinístico</em> é um jogo onde se você parte de um estado do jogo e realiza uma ação específica e ela sempre irá produzir o mesmo resultado. (Schreiber)</p>
-</blockquote>
-<p><em>Esse tipo de jogo é comum? Exemplos?</em></p>
-<h3 id="nao-determinismo">Não-determinismo</h3>
-<p>É um jogo onde uma ação em um estado determinado pode apresentar resultados variáveis de forma aparentemente aleatória.</p>
-<p><em>Qual o impacto dessa mudança para o equilíbrio de um jogo?</em></p>
-<h3 id="resolubilidade">Resolubilidade</h3>
-<p>Se um jogo é resolúvel, isso implica que ele tem <em>uma</em> ação específica que é &ldquo;melhor&rdquo; a cada momento e que é possível que os jogadores a descubram.</p>
-<p><em>Isso é interessante para os jogadores?</em></p>
-<p>Uma solução para um jogo pode ser <strong>trivial</strong> (se facilmente solúvel) ou não, apenas <strong>teoricamente solúvel</strong> (como no caso do xadrez). Esse úm bom critério para aplicar quando se está testando regras fundamentais de um jogo: ele é solúvel? Que tipo de resolubilidade ele apresenta?</p>
-<h4 id="resolvendo-jogos-nao-deterministicos">Resolvendo jogos não-determinísticos</h4>
-<p>No caso de jogos determinísticos é &ldquo;fácil&rdquo; calcular os resultados e impactos de uma ação. Como proceder em jogos não-determinísticos? É possível resolvê-los? Schreiber acredita que sim, mas que uma solução, nesse caso, &ldquo;é um conjunto de ações que maximiza a probabilidade do jogador de ganhar&rdquo;.</p>
-<h4 id="resolvendo-jogos-intransitivos">Resolvendo jogos intransitivos</h4>
-<p>Jogos intransitivos são, para Schreiber, aqueles em que uma escolha depende, para ser efetiva, da escolha de outro jogador. Pense no clássico <em>jo-ken-po</em> ou <em>pedra-papel-tesoura</em>. A primeira vista, esse tipo de jogo não parece ter uma solução clara, mas pode-se dizer que a sua &ldquo;solução&rdquo; seria usar as opções de forma igualitária, dificultando a previsão de suas ações pelo oponente.</p>
-<h3 id="simetria-e-assimetria">Simetria e assimetria</h3>
-<p>Um jogo <strong>simétrico</strong> apresenta condições iniciais e regras idênticas para todos os jogadores. Isso não implica, no entanto, que o jogo seja equilibrado de forma geral, pois estratégias ou elementos do jogo podem ser tão dominantes a ponto que &ldquo;quebrar&rdquo; a experiência dos jogadores.</p>
-<p><em>Quais as implicações da ideia de simetria para o equilíbrio de jogos? Como você abordaria o equilíbrio de cada um desses tipos de jogos?</em></p></div>
+<h1 id="tecnicas-para-equilibrar-movimento">Técnicas para equilibrar movimento</h1>
+<h2 id="prototipo-de-movimentacao">Protótipo de movimentação</h2>
+<ol>
+<li>Criar lógica básica de movimentação do objeto.</li>
+<li>Criar um contexto básico onde esse movimento acontece.</li>
+<li>Preparar a lógica de câmera adequada a esse movimento e contexto.</li>
+<li>Iterar essas etapas incluindo regras e polimentos adequados, realizando testes no final de cada iteração.</li>
+</ol>
+<h3 id="dicas-e-tecnicas">Dicas e técnicas</h3>
+<ul>
+<li>Usar a técnica das metades e dobros (detalhes abaixo) na hora de estimar valores para movimentação.</li>
+<li>Alterar um parâmetro apenas a cada teste.</li>
+<li>Criar pequenos scripts de teste e visualização de variáveis. O sistema de <code>Gizmos</code> da Unity é bastante prático para isso.</li>
+<li>Na hora de criar lógica para câmeras, você pode começar se perguntando:<ul>
+<li>Quais aspectos do movimento você quer enfatizar?</li>
+<li>Onde vai estar a atenção do jogador?</li>
+<li>Como a câmera afeta (ou não) o movimento?</li>
+<li>Qual o ritmo / estética do meu jogo? Faz sentido uma câmera rápida?</li>
+<li>Na perspectiva do meu jogo, como posso trabalhar a escala do movimento?</li>
+</ul>
+</li>
+<li>Quando estiver pensando em câmeras, não reinvente a roda. <a href="http://www.gamasutra.com/blogs/ItayKeren/20150511/243083/Scroll_Back_The_Theory_and_Practice_of_Cameras_in_SideScrollers.php">Dê uma olhada no que já existe</a> e tente avaliar o que se encaixa nas suas necessidades e onde você pode inovar também.</li>
+</ul>
+<p><a href="http://www.gamasutra.com/blogs/ItayKeren/20150511/243083/Scroll_Back_The_Theory_and_Practice_of_Cameras_in_SideScrollers.php"><img alt="Mario 3" src="../../imgs/mario_cam.gif" /></a></p>
+<p><em>Acima:</em> Uso de um limite lateral para câmera e uma área de aceleração.</p>
+<p><a href="http://www.gamasutra.com/blogs/ItayKeren/20150511/243083/Scroll_Back_The_Theory_and_Practice_of_Cameras_in_SideScrollers.php"><img alt="Super Meat Boy" src="../../imgs/supermeatboy.gif" /></a></p>
+<p><em>Acima: Uso de lerp (interpolação linear) e position-locking.</em></p>
+<h4 id="lembrete-metades-e-dobros">Lembrete: Metades e dobros</h4>
+<p>Quando se está equilibrando quantidades numéricas, é comum que as pessoas tentem acertar números fazendo pequenas alterações. Esse método pode funcionar, mas é mais lento do que o método de alterar valores sempre em metades e dobros. Quando precisar aumentar um <code>valor1</code>, dobre-o. Se o novo resultado, <code>valor2</code> ficar muito acima do desejado, divida a diferença entre <code>valor2</code> e <code>valor1</code> pela metade para encontrar o <code>valor3</code>. Com isso você está realizando um tipo de busca binária entre os valores possíveis.</p></div>
         </div>
 
 	<footer class="col-md-12">

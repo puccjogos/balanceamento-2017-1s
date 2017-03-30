@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Análise de game feel - Balanceamento - 2017-1S</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+    <h1>Análises de game feel</h1>
+    <p class="intro">Resultados de atividade individual de análise. Cada aluno escolheu um jogo que apresente game feel como definido por Swink para analisar cada um dos critérios colocados pelo autor.</p>
+    <div class="pesquisa">
+    {{#info}}
+      <div class="resposta">
+        <h2>{{jogo}}</h2>
+        <p class="intro">Análise por {{estudante}}.</p>
+        <h3>Input</h3>
+        {{{md_input}}}
+        <h3>Resposta</h3>
+        {{{md_resposta}}}
+        <h3>Contexto</h3>
+        {{{md_contexto}}}
+        <h3>Regras</h3>
+        {{{md_regras}}}
+        <h3>Metáfora</h3>
+        {{{md_metafora}}}
+        <h3>Polimento</h3>
+        {{{md_polimento}}}
+      </div>
+    {{/info}}
+    </div>
+  </body>
+</html>
