@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ArcadePUCCampinas;
 
 public class Nave : MonoBehaviour
 {
-
+    public int jogador = 0;
     Vector2 input;
     Rigidbody2D rb;
     public float forcaFogueteX;
@@ -19,8 +20,11 @@ public class Nave : MonoBehaviour
     void Update()
     {
         input = new Vector2();
-        input.x = Input.GetAxis("Horizontal");
-        input.y = Input.GetAxis("Vertical");
+        input.x = InputArcade.Eixo(jogador, EEixo.HORIZONTAL);
+        input.y = InputArcade.Eixo(jogador, EEixo.VERTICAL);
+        Debug.Log(input);
+        //input.x = Input.GetAxis("Horizontal");
+        //input.y = Input.GetAxis("Vertical");
 
     }
 
