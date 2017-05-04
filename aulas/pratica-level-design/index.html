@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>Prática de level design - Balanceamento - 2017 - 1S</title>
+
+        <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link href="../../css/extra.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">Balanceamento - 2017 - 1S</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Aulas <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../jogos-e-equilibrio/">Jogos e equilíbrio</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../jogos-e-sistemas/">Jogos como sistemas</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../analise-sistemas/">Análise de sistemas em jogos</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../tecnicas-sistemas/">Técnicas para equilibrar sistemas</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../movimento-equilibrio/">Movimento e equilíbrio</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../analise-movimento/">Análise de movimento</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../tecnicas-movimento/">Técnicas para equilibrar movimento</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../level-design-equilibrio/">Level design e equilíbrio</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Prática de level design</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../polimento/">Polimento</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../referencias/">Referências</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li >
+                    <a rel="next" href="../level-design-equilibrio/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../polimento/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#pratica-de-level-design">Prática de level design</a></li>
+        
+            <li><a href="#workflow-para-level-design">Workflow para level design</a></li>
+        
+            <li><a href="#exercicios">Exercícios</a></li>
+        
+            <li><a href="#referencias">Referências</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="pratica-de-level-design">Prática de level design</h1>
+<p>Vamos prosseguir utilizando o sistema de jogo em plataforma apresentado na aula passada. Para relembrar, vimos como usar as ferramentas Tiled e Tiled2Unity para criar mapas e importá-los dentro da engine Unity. Isso é o que chamamos de <em>pipeline</em>: um fluxo de tarefas e ferramentas com foco na parte técnica de realizar uma tarefa (no caso, criar uma fase). Hoje vamos focar na prática e definição de um fluxo de trabalho (workflow) que é mais voltado a combinar o trabalho conceitual e técnico.</p>
+<h2 id="workflow-para-level-design">Workflow para level design</h2>
+<h3 id="1-determinar-experiencia-desejada-genius-loci">1. Determinar experiência desejada (<em>genius loci</em>)</h3>
+<p>O conceitos de <strong>genius loci</strong> vem da Roma Antiga. Este seria o espírito de um lugar, sua essência intangível. Definir a experiência que se deseja que o jogador tenha em um espaço envolve desde considerações sobre a dificuldade da fase e as habilidades que já foram ensinadas ao jogador, como essa noção de construção de mundo, de criação de um todo que o abriga. Isso é a primeira fundação em torno da qual se constrói o resto, pois define o estilo  e arte, o layout do espaço, o som, a luz, a câmera, etc. É importante equilibrar essa necessidade funcional da fase com sua construção imaginária e subjetiva.</p>
+<h3 id="2-definir-metricas-do-jogador">2. Definir métricas do jogador</h3>
+<p>As métricas do jogador são a representação das relações dos verbos do jogador com o espaço do jogo. Como são os movimentos? Como ele ocupa o espaço? Medidas como velocidade, tamanho, campo de visão, relação com a câmera, são todas métricas relevantes. Claro que esses valores mudam de jogo para jogo.</p>
+<h3 id="3-chegadas-e-genius-loci">3. Chegadas e <em>genius loci</em></h3>
+<p>O primeiro contato, a <strong>chegada</strong>, com um espaço é fundamental para determinar a dinâmica da experiência. A forma como isso é construído tem de ser bem pensada e pode utilizar-se de uma série de elementos, desde os tipos de espaço delimitados acima como campos de visão, som, arte e câmera. Isso vale para o início de fases ou de sub-áreas menores. A chegada é um evento central para a narrativa do percurso do jogador.</p>
+<h3 id="4-diagrama-de-molecule-design">4. Diagrama de &ldquo;molecule design&rdquo;</h3>
+<p><img alt="" src="../../imgs/molecule-level-design.jpg" /></p>
+<p>O método para level design chamado de <em>molecule design</em> é proposto por Totten como forma de esquematizar os principais espaços de um level ou espaço de jogo, reconhecendo que raramente um level é definido por um único tipo de espaço. É bastante simples e auto-explicativo, vide exemplo acima. Também é importante, além da ordem e conexões entre espaços, marcar qual é o verbo que liga esses espaços, pois existem outras relações além do deslocamento, como uma vista, por exemplo.</p>
+<p><strong>Tipos de espaço</strong></p>
+<ul>
+<li>Corredores</li>
+<li>Espaços íntimos</li>
+<li>Refúgio</li>
+<li>Campos abertos</li>
+</ul>
+<h3 id="5-blocking">5. Blocking</h3>
+<p><strong>Blocking</strong> ou <em>whiteblocking</em> é nome que se dá ao processo de construir o layout macro de uma fase usando blocos simples sem textura, para estudar o volume e escala dos diferentes elementos da fase. Nessa etapa, o mais importante é conseguir sentir a relação entre as métricas do jogador (sua velocidade, movimento, câmera) e os volumes do espaço, se possível e forma interativa em uma engine. Depois dessa etapa, com as principais áreas definidas, artistas visuais começam a elaborar os elementos finais. Um processo semelhante se aplica a jogos 2D, mas utilizando formas mais simples e blocos temporários.</p>
+<p><img alt="" src="../../imgs/whiteblocking.jpg" /></p>
+<h2 id="exercicios">Exercícios</h2>
+<ol>
+<li>Escolher alguma mecânica presente no jogo-exemplo para focar de forma principal. Anotar também métricas do jogador que sejam relevantes.</li>
+<li>Determinar que tipo de lugar / <em>genius loci</em> é mais apropriado para trabalhar essa mecânica.</li>
+<li>Elaborar um diagrama de molecule design definindo principais áreas da fase e sua relação.</li>
+<li>Fazer o blocking da fase. Testar dentro da engine.</li>
+<li>Finalizar a fase (acertos pontuais, popular com objetos e comunicação) e testar na engine. </li>
+</ol>
+<h2 id="referencias">Referências</h2>
+<ul>
+<li>TOTTEN, C. W. <strong>An architectural approach to level design</strong>. Boca Raton, FL: CRC Press, 2014.</li>
+</ul></div>
+        </div>
+
+	<footer class="col-md-12">
+		<hr>
+		
+		<p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+	</footer>
+
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../js/extra.js"></script>
+    </body>
+</html>
