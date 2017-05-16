@@ -2,6 +2,8 @@
 
 Este site é a apostila digital da disciplina *Técnicas de balanceamento de jogos*, ministrada no 1º semestre de 2017 no curso de Tecnologia em Jogos Digitais da PUC-Campinas. Aqui você encontra os links para materiais, assim como outras informações relevantes.
 
+[O link para as recomendações de jogos apresentados em sala foi alterado.](https://puccjogos.github.io/recomendacoes-enric/)
+
 ## Cronograma
 
 Data  | Aula
@@ -11,21 +13,18 @@ Data  | Aula
 02/03 | Discussão e [análise de sistemas em jogos](aulas/analise-sistemas.md)
 09/03 | Análise de sistemas e [técnicas para equilibrar sistemas](aulas/tecnicas-sistemas.md)
 16/03 | [Movimento e equilíbrio](aulas/movimento-equilibrio.md)
-23/03 | Discussão e análise de movimento em jogos
-30/03 | Técnicas para equilibrar movimento
+23/03 | Discussão e [análise de movimento em jogos](aulas/analise-movimento.md)
+30/03 | [Técnicas para equilibrar movimento](aulas/tecnicas-movimento.md) / [Resultados de análises de game feel](materiais/AnaliseGameFeel/index.html)
 06/04 | **Prova individual 1**
-13/04 | Level design e equilíbrio
-20/04 | Experimentação e análise de fases simples
-27/04 | Técnicas de level design
-04/05 | Progressão e equilíbrio
-11/05 | Ferramentas e técnicas para equilíbrio
-18/05 | Câmeras, interfaces e dificuldade
+20/04 | [Level design e equilíbrio](aulas/level-design-equilibrio.md)
+27/04 | [Experimentação e criação de fases simples](https://github.com/puccjogos/plataforma-2D)
+04/05 | [Prática de level design](aulas/pratica-level-design.md)
+11/05 | [Progressão e equilíbrio](materiais/Progressao.zip)
+18/05 | Ferramentas e técnicas para equilíbrio / Câmeras, interfaces e dificuldade |
 25/05 | Polimento
 01/06 | Criando diálogos
 08/06 | **Prova individual 2**
 22/06 | **Prova de recuperação** / Fechamento da disciplina
-
-[O link para as recomendações de jogos apresentados em sala foi alterado.](https://puccjogos.github.io/recomendacoes-enric/)
 
 ## Plano de ensino
 

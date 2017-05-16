@@ -7,7 +7,11 @@ pages:
   - 'Análise de sistemas em jogos' : 'aulas/analise-sistemas.md'
   - 'Técnicas para equilibrar sistemas' : 'aulas/tecnicas-sistemas.md'
   - 'Movimento e equilíbrio' : 'aulas/movimento-equilibrio.md'
-  - Polimento : 'aulas/polimento.md'
+  - 'Análise de movimento' : 'aulas/analise-movimento.md'
+  - 'Técnicas para equilibrar movimento' : 'aulas/tecnicas-movimento.md'
+  - 'Level design e equilíbrio' : 'aulas/level-design-equilibrio.md'
+  - 'Prática de level design' : 'aulas/pratica-level-design.md'
+  - 'Polimento' : 'aulas/polimento.md'
 - Referências : 'referencias.md'
 theme: bootstrap
 extra_css:
