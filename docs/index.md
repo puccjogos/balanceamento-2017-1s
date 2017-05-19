@@ -20,7 +20,7 @@ Data  | Aula
 27/04 | [Experimentação e criação de fases simples](https://github.com/puccjogos/plataforma-2D)
 04/05 | [Prática de level design](aulas/pratica-level-design.md)
 11/05 | [Progressão e equilíbrio](materiais/Progressao.zip)
-18/05 | Ferramentas e técnicas para equilíbrio / Câmeras, interfaces e dificuldade |
+18/05 | [Ferramentas para equilíbrio](aulas/ferramentas.md) |
 25/05 | Polimento
 01/06 | Criando diálogos
 08/06 | **Prova individual 2**

@@ -11,6 +11,7 @@ pages:
   - 'Técnicas para equilibrar movimento' : 'aulas/tecnicas-movimento.md'
   - 'Level design e equilíbrio' : 'aulas/level-design-equilibrio.md'
   - 'Prática de level design' : 'aulas/pratica-level-design.md'
+  - 'Ferramentas para equilíbrio' : 'aulas/ferramentas.md'
   - 'Polimento' : 'aulas/polimento.md'
 - Referências : 'referencias.md'
 theme: bootstrap
